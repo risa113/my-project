@@ -16,8 +16,8 @@ function App() {
 
           <Card
             title="Thariq"
-             description="React Developer"
-          
+            description="React Developer"
+
           /> </div>
         <div className="new">
           <Card
@@ -31,6 +31,15 @@ function App() {
             description="React Developer"
           />
         </div>
+
+        <div className="abb">
+          <img src="https://tmdigitalgrow.com/mohamed_thariq.png" alt="Thariq" />
+
+          <Card
+            title="Thariq"
+            description="React Developer"
+
+          /> </div>
       </div>
       {student.filter((student) => student.name === "Thariq").map((student) => (
         <Card
